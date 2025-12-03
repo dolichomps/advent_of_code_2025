@@ -1,5 +1,5 @@
 int findMatches(String range) {
-  final exp = RegExp(r'^(\d+)\1$');
+  final exp = RegExp(r'^(\d+)\1+$');
   final rangeList = range.split('-');
   int total = 0;
   for (
